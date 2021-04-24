@@ -4,6 +4,31 @@
     padding: 0;
 }
 
+.head {
+    display: grid;
+    height: 420px;
+    width: 1400px;
+    grid-template-columns: auto;
+    grid-template-rows: 25fr 1fr;
+}
+
+.head-img {
+    display: grid;
+    background-image: url(./img/3d_seismic.jpg);
+    background-size: cover;
+    grid-template-columns: auto;
+    grid-template-rows: 9fr 1fr;
+    border: 2px solid black;
+    opacity: 0.9;
+    grid-area: 1 / 1 / 1 / 2;
+}
+.head-marg {
+    display: grid;
+    background-color:  rgb(210, 210, 214);;
+    grid-area: 2 / 1 / 2 / 2;
+}
+
+
 .header-section {
     display: grid;
     width: 1400px; 
@@ -91,7 +116,7 @@ img {
 
 .article1 {
     height: 250px;   
-    border: 3px solid black;
+    border: 3px solid  rgb(83, 83, 83);
     background-color: rgb(233, 233, 233);
     border-radius: 5px;
     box-shadow: 5px 5px 1em black;
@@ -102,7 +127,10 @@ img {
     font-weight: bold;
     font-size: 28px;
     text-align: center;
-    grid-area: 1 / 2/ 2/ 12;
+    margin-top: 18px;
+    margin-right: 95px;
+    margin-bottom: 20px;
+    grid-area: 1 / 6/ 2/ 12;
 }
 .picture1 {
     display: flex;
@@ -110,7 +138,7 @@ img {
     margin-top: 20px;
     border-radius:2px;
     height: 210px;
-    border: 2px solid rgb(53, 53, 53);
+    border: 2px solid gray;
     grid-area: 1 / 2 / 1 / 5;
  }
 
@@ -123,12 +151,15 @@ img {
     flex-shrink: 1;
     margin: 55px 30px 30px 75px;
     padding: 10px;
-    word-wrap: break-word;
+    overflow: auto;
+    height: 175px;
+    border: 2px solid gray;
+    border-radius: 2px;
     grid-area: 1 / 5/ 2/ 12;
  }
 .article2 {
     height: 250px; 
-    border: 3px solid black;
+    border: 3px solid  rgb(83, 83, 83);
     border-radius: 5px;
     background-color:rgb(233, 233, 233);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -138,7 +169,14 @@ img {
     box-shadow: 5px 5px 1em black;
     grid-area: 3 / 2 / 4/ 7;
 }
-
+.header2-2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 18px;
+    grid-area: 3 / 2/ 4/ 7;
+}
 .tekst2 {
     display: grid;
     background-color: rgb(233, 233, 233);
@@ -148,11 +186,15 @@ img {
     flex-shrink: 1;
     margin: 55px 30px 30px 30px;
     padding: 10px;
+    overflow: auto;
+    height: 175px;
+    border: 2px solid gray;
+    border-radius: 2px;
     grid-area: 3 / 2 / 4/ 7;
  }
 .article3 {
     height: 250px; 
-    border: 3px solid black;
+    border: 3px solid rgb(83, 83, 83);
     border-radius: 5px;
     background-color: rgb(233, 233, 233);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -161,6 +203,14 @@ img {
     text-align: center;
     box-shadow: 5px 5px 1em black;
     grid-area: 3 / 7 / 4 / 12;
+}
+.header2-3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 18px;
+    grid-area: 3 / 7/ 4/ 12;
 }
 .tekst3 {
     display: grid;
@@ -171,6 +221,10 @@ img {
     flex-shrink: 1;
     margin: 55px 30px 30px 30px;
     padding: 10px;
+    overflow: auto;
+    height: 175px;
+    border: 2px solid gray;
+    border-radius: 2px;
     grid-area: 3 / 7 / 4 / 12;
  }
 .header2{
@@ -184,7 +238,7 @@ img {
 } 
 .article4 {
     height: 216px; 
-    border: 3px solid black;
+    border: 3px solid  rgb(83, 83, 83);
     border-radius: 5px;
     background-color: rgb(233, 233, 233);
     margin-bottom: 50px;
@@ -205,19 +259,19 @@ img {
  
 .h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(29, 29, 29);
-    font-weight: bold;
-    font-size: 24px;
+    color:  rgb(83, 83, 83)(29, 29, 29);
+    font-weight: bolder;
+    font-size: 22px;
     text-decoration: none;
-    background-color: rgb(21, 224, 14);
-    border: 3px solid rgb(0, 58, 12);
+    background-color: rgb(49, 233, 79);
+    border: 2px solid  rgb(83, 83, 83);
     border-radius: 3px;
-    padding: 4px;
+    padding: 5px;
 }
 
 .article5 {
     height: 216px; 
-    border: 3px solid black;
+    border: 3px solid  rgb(83, 83, 83);
     border-radius: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -230,7 +284,7 @@ img {
 
 .article6 {
     height: 216px; 
-    border: 3px solid black;
+    border: 3px solid  rgb(83, 83, 83);
     border-radius: 5px;
     box-shadow: 10px 10 px 10px 10px darkcyan;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -245,7 +299,7 @@ img {
 
 .footer {
     display: grid;
-    height: 300px;
+    height: 200px;
     width: 1400px;
     grid-template-columns: 100%;
     grid-template-rows: 100%;
@@ -253,3 +307,17 @@ img {
     text-align: center;
  }
 
+ .tekst-footer {
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align:justify;
+    flex-shrink: 1;
+    margin: 15px 40px 30px 40px;
+    padding: 10px;
+    overflow: auto;
+    height:162px;
+    border: 2px solid gray;
+    border-radius: 2px;
+ }
