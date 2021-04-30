@@ -1,14 +1,15 @@
+body {
+    margin: 0;
+}
+
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 .head {
     display: grid;
     height: 420px;
     width: 1400px;
-    grid-template-columns: auto;
     grid-template-rows: 25fr 1fr;
 }
 
@@ -16,7 +17,6 @@
     display: grid;
     background-image: url(./img/3d_seismic.jpg);
     background-size: cover;
-    grid-template-columns: auto;
     grid-template-rows: 9fr 1fr;
     border: 2px solid black;
     opacity: 0.9;
@@ -148,7 +148,6 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
     text-align:justify;
-    flex-shrink: 1;
     margin: 55px 30px 30px 75px;
     padding: 10px;
     overflow: auto;
@@ -218,7 +217,6 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
     text-align:justify;
-    flex-shrink: 1;
     margin: 55px 30px 30px 30px;
     padding: 10px;
     overflow: auto;
@@ -238,7 +236,7 @@ img {
 } 
 .article4 {
     height: 216px; 
-    border: 3px solid  rgb(83, 83, 83);
+    border: 3px solid rgb(83, 83, 83);
     border-radius: 5px;
     background-color: rgb(233, 233, 233);
     margin-bottom: 50px;
@@ -259,12 +257,12 @@ img {
  
 .h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:  rgb(83, 83, 83)(29, 29, 29);
+    color: rgb(83, 83, 83)(29, 29, 29);
     font-weight: bolder;
     font-size: 22px;
     text-decoration: none;
     background-color: rgb(49, 233, 79);
-    border: 2px solid  rgb(83, 83, 83);
+    border: 2px solid rgb(83, 83, 83);
     border-radius: 3px;
     padding: 5px;
 }
@@ -286,13 +284,11 @@ img {
     height: 216px; 
     border: 3px solid  rgb(83, 83, 83);
     border-radius: 5px;
-    box-shadow: 10px 10 px 10px 10px darkcyan;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
     background-color: rgb(233, 233, 233);
-    text-align: center;
     box-shadow: 5px 5px 1em black;
     grid-area: 5 / 9 / 6 / 11;
 }
@@ -301,23 +297,18 @@ img {
     display: grid;
     height: 200px;
     width: 1400px;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    background-color: rgb(88, 88, 88);
-    text-align: center;
+    background-color: rgb(53, 53, 53);
  }
 
  .tekst-footer {
     display: flex;
-    background-color: rgb(233, 233, 233);
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align:justify;
-    flex-shrink: 1;
-    margin: 15px 40px 30px 40px;
+    font-size: 24px;
+    font-kerning: auto;
+    text-align: center;
+    line-height: 35px;
+    margin: 20px 40px 30px 40px;
     padding: 10px;
-    overflow: auto;
-    height:162px;
-    border: 2px solid gray;
-    border-radius: 2px;
+
  }
